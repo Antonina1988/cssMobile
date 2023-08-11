@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    height: 450px;
+    background-color: grey;
+    background-image: url(./pexels-photo-247791.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: 900;
+    color: aliceblue;
+    font-size: 23px;
+    
+  }
+  main {
+    background: #333333;
+   text-align: center;
+    
+    
+  }
+  .section-1 {
+    
+    padding-top: 50px;
+  }
+  h1 {
+    color: aliceblue;
+    margin: 0px;
+    text-overflow: ellipsis;
+    padding: 100PX 0px 0px ;
+    font-weight: bold;
+  }
+  a {
+    color: aliceblue;
+    text-overflow: ellipsis;
+    border: 1px solid aliceblue;
+    padding: 20px;
+    background: #333333;
+    text-decoration:none;
+    
+  } 
+  
+  section h2 {
+    text-align: center;
+    margin: 50px;
+    
+  }
+  section p {
+    margin: 20px;
+    column-count: 2;
+  }
+  
+  
+  .Web {
+    width: 300px;
+    padding: 50px;
+    margin: 60px;
+    display: inline-block;
+    background: white;
+   
+    
+  }
+  img {
+    object-fit: inherit;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .Mobile {
+    width: 300px;
+    padding: 50px;
+    margin: 60px;
+    display: inline-block;
+    background: white;
+  }
+  .Tech {
+    width: 300px;
+    padding: 50px;
+    margin: 60px;
+    display: inline-block;
+    background: white;
+  }
+  h4 {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px; 
+    padding: 20px;
+    
+  }
+  p {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+footer {
+  font-size: 0;
+  padding-top: 40px;
+}
+  .parent1 {
+    background: #2690d4;
+    color: white;
+    display: inline-block; 
+    width: calc(100% / 2);
+    font-size: 40px;
+    
+  }
+  .parent2 {
+    background: #333333;
+    color: white;
+    display: inline-block;
+    width: calc(100% / 2);
+    font-size: 30px;
+    padding-top: 40px;
+    text-align: start;
+  }
+  .parent {
+    font-size: 0;
+  }
+  .Acme, .By {
+    color: white;
+    background: black;
+    display: inline-block;
+    width: calc(100% / 2);
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .traversyMedia {
+    color: #2690d4;
+    border: 0 ;
+    text-decoration:none;
+    background: black;
+  }
